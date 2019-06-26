@@ -1,0 +1,15 @@
+{
+  "name": "os-firebase-rtd",
+  "version": "1.0.0",
+  "description": "a simple module to read/update/push data to Firebase Real Time Database",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "Firebase",
+    "Real",
+    "Time",
+    "Database"
+  ],
+  "author": "osfunapps",
+  "license": "ISC"
+}
