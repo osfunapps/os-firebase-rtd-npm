@@ -1,3 +1,5 @@
+## os-firebase-rtd
+
 Introduction
 ------------
 
@@ -45,5 +47,9 @@ Delete:
 
 It is also possible to save the read properties to a file, delete after read and more.
 
+## Links
+[npm os-firebase-rtd](https://www.npmjs.com/package/os-firebase-rtd)
 ## Licence
-ISC# os-firebase-rtd-npm
+ISC
+
+
