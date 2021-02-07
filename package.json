@@ -1,8 +1,16 @@
 {
   "name": "os-firebase-rtd",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a simple module to read/update/push data to Firebase Real Time Database",
   "main": "index.js",
+  "dependencies": {
+    "os-tools": "1.0.2",
+    "firebase-admin": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osfunapps/os-firebase-rtd-npm"
+  },
   "keywords": [
     "npm",
     "Firebase",

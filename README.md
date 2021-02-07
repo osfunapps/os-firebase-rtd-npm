@@ -23,27 +23,28 @@ Install via npm:
     
     
 Require rtd:
-        
-    var rtd = require("os-firebase-rtd")
-        
+```js
+var rtd = require("os-firebase-rtd")
+```        
             
 Initiate the db:     
-    
-    await rtd.initializeDB("https://your_database_url.com", "/path/to/your/service/account/json.json")    
-
+```js    
+await rtd.initializeDB("https://your_database_url.com", "/path/to/your/service/account/json.json")    
+```
 
 Push:
-    
-    await RTDHelper.push("people", {"Moshe": "12", "Itzik": "33"})
-    
-Read:
-    
-    let peopleObj = await RTDHelper.read("people")
+```js    
+await RTDHelper.push("people", {"Moshe": "12", "Itzik": "33"})
+```
 
+Read:
+```js    
+let peopleObj = await RTDHelper.read("people")
+```
 Delete:
-    
-    await RTDHelper.delete("people")
-    
+```js
+await RTDHelper.delete("people")
+```    
 
 It is also possible to save the read properties to a file, delete after read and more.
 
